@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Movie Search & Favorites App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Title -->
+  <h2>🎬 Movie Search</h2>
+
+  <!-- Top Search Bar -->
+  <div class="top-bar">
+    <input type="text" id="search" placeholder="Search movie by title">
+    <button onclick="searchMovie()">Search</button>
+    <span id="favCount">❤️ 0</span>
+  </div>
+
+  <!-- Movie Search Results -->
+  <div id="movies"></div>
+
+  <!-- Movie Details Section -->
+  <div id="details"></div>
+
+  <!-- Favorites Section -->
+  <div id="favorites"></div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
